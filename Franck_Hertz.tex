@@ -228,7 +228,7 @@ It is easier to determine the minima without the background present.
 The curves were fitted using trial and error; we picked the one that best split the oscillations of the output voltage into equal amplitudes above and below the background. 
 Fig. \ref{nobacknolock} and \ref{nobacklock} show the output voltage with the background removed. 
 
-\begin{figure}[h!] %background not quadratic-fix
+\begin{figure}[h!] %background not quadratic from my memory-fix
 \centering
 \includegraphics[width=6in]{204C_noback.pdf}
 \caption{A plot of the output voltage minus the background for mercury at 204\degree C.}
@@ -248,8 +248,17 @@ The curve fitting was done using Mathematica, as the uncertainty in the minima f
 We determined our uncertainty by first altering the slope and intercept of the best-fit line determine by Igor Pro, such that the line is no longer a good fit to the data. We obtained high and low values of the slope and intercept. 
 Thus our uncertainty in the slope and intercept values was half of the difference between the high and low values.
 Finally, the uncertainty in our minimum was determined by propagating the slope and intercept errors.
-Although this method reduced the uncertainty relative to that from Igor Pro,  the range of values for each minimum was still larger than the size of the minimum itself.
+Although this method reduced the uncertainty relative to that from Igor Pro,  the range of values for each minimum was still larger than the size of the minimum itself. Additionally, some values of the minima did not appear to match when we compared it to our data by eye.
 
+At this point, we decided to use the old-fashioned method of estimating our minimum by eye as well as the uncertainty. Then we calculated the difference in the accelerating voltage of successive minima (Fig. \ref{nomineye}). 
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{204C_minima_eyeball.pdf}
+\caption{A plot the change in accelerating voltage between successive minima.}
+\label{nomineye}
+\end{figure}
 
 \begin{table}[h!]
 \centering
