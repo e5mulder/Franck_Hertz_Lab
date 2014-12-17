@@ -259,18 +259,21 @@ The curve fitting was done using Mathematica, as the uncertainties in the minima
 We determined our uncertainty by first altering the slope and intercept of the best-fit line determined by Igor Pro, such that the line was no longer a good fit to the data. We obtained high and low values of the slope and intercept. 
 Thus our uncertainty in the slope and intercept values was half of the difference between the high and low values.
 Finally, the uncertainty in our minimum was determined by propagating the slope and intercept errors.
-Although this method reduced the uncertainty relative to that from Igor Pro,  the range of values for each minimum was still larger than the size of the minimum itself. Additionally, some values of the minima did not appear to match when we compared it to our data by eye.
+Although this method reduced the uncertainty relative to that from Igor Pro,  the range of values for each minimum was still larger than what it appears to be looking at the data. Additionally, some values of the minima did not appear to match when we compared it to our data by eye.
+At this point, we decided to use the old-fashioned method of estimating our minimum by eye as well as the uncertainty for our both sets of data. Then we calculated the spacing between successive minima (Table ~\ref{minimaSpacing} and Fig. \ref{nomineye}). 
 
-At this point, we decided to use the old-fashioned method of estimating our minimum by eye as well as the uncertainty. Then we calculated the difference in the accelerating voltage of successive minima (Table ~\ref{minimaSpacing} and Fig. \ref{nomineye}). 
-
+The spacings should increase linearly with the number of minima, due to extra acceleration of the electron before it collides with an atom. The expected spacing between minima is given by 
+\begin{equation}\label{energy}\Delta E(n)=E_n-E_{n-1}=\left\lfloor 1+\lambda/L(2n-1)\right\rfloor E_a,\end{equation}
+where $\lambda$ is the mean free path of the electron (the average distance it moves before colliding), $L$ is the anode to cathode distance, and $E_a$ is the lowest excitation energy of the atom. The lowest possible excitation energy from Eq.~\ref{energy} is $E_a=\Delta E(0.5)$. \cite{new}
+We can obtain a estimate of the lowest excitation energy of mercury by extrapolating our linear fit of data in Table~\ref{minimaSpacing} to $n=0.5$. 
 
 \begin{table}[h!]
 \centering
-\caption{Values for minima spacing with uncertainty, determined by three methods: estimating by eye from the plot of lock-in data, estimating by eye from the plot of data taken without the lock-in, and calculating from the curve fits to the lock-in minima as described in the analysis section. Our eyeball estimates had the lowest uncertainty. Plotted in Figure ~\ref{nomineye}}
+\caption{Values for minima spacing with uncertainty, determined by three methods: estimating by eye from the plot of lock-in data, estimating by eye from the plot of data taken without the lock-in, and calculating from the curve fits to the lock-in minima as described in the analysis section. Our eyeball estimates had the lowest uncertainty.}
 \begin{ruledtabular}
 \begin{tabular}{cccccccl}
           & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Lock-in data\\ estimate by eye\end{tabular}} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Data without lock-in\\ estimate by eye\end{tabular}} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Lock-in data\\ calculated from fits\end{tabular}} \\
-Space No. & X                                            & dX                                          & X                                                & dX                                              & X                                              & dX                                             \\
+n & X                                            & dX                                          & X                                                & dX                                              & X                                              & dX                                             \\
 1         & 4.87                                         & 0.2                                         & 4.82                                             & 0.12                                            & 5                                              & 0.9                                            \\
 2         & 5.15                                         & 0.2                                         & 4.79                                             & 0.14                                            & 5.07                                           & 0.53                                           \\
 3         & 4.5                                          & 0.2                                         & 4.91                                             & 0.12                                            & 4.49                                           & 0.43                                           \\
@@ -283,13 +286,15 @@ Space No. & X                                            & dX                   
 \label{minimaSpacing}
 \end{table}
 
-
 \begin{figure}[h!]
 \centering
 \includegraphics[width=6in]{204C_minima_eyeball.pdf}
 \caption{A plot the change in accelerating voltage between successive minima.}
 \label{nomineye}
 \end{figure}
+
+We estimated the lowest excitation energy of mercury to be %insert values%
+from the minima of the lock-in data estimated by eye, of the no lock-in data estimated by eye, and of the lock-in data estimated by curve-fitting.
 
 
 \section{Discussion}
@@ -298,6 +303,6 @@ Space No. & X                                            & dX                   
 \section{Conclusion}
 
 \begin{thebibliography}{3}
-
+\bibitem{new} Gerald Rapior, Klaus Sengstock, and Valery Baev, "New features of the Franck-Hertz experiment," Am. J. Phys. {\bf 74}, 423--428 (2006).
 \end{thebibliography}
 \end{document}
