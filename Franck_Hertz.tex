@@ -242,7 +242,13 @@ Fig. \ref{nobacknolock} and \ref{nobacklock} show the output voltage with the ba
 \label{nobacklock}
 \end{figure}
 
-The minimua for the data without the lock-in look parabolic while those of the lock-in data look linear, so they were fitted different curves to determine the minima. 
+The minima for the data without the lock-in look parabolic while those of the lock-in data look linear.
+We performed linear fits on each side of the minimum for the lock-in data. The intersection of these lines was our estimate of the minimum.
+The curve fitting was done using Mathematica, as the uncertainty in the minima from curve-fitting in Igor Pro were larger than the range we fit the data over, thus it was not a accurate measure of our uncertainty in determine the minima.
+We determined our uncertainty by first altering the slope and intercept of the best-fit line determine by Igor Pro, such that the line is no longer a good fit to the data. We obtained high and low values of the slope and intercept. 
+Thus our uncertainty in the slope and intercept values was half of the difference between the high and low values.
+Finally, the uncertainty in our minimum was determined by propagating the slope and intercept errors.
+Although this method reduced the uncertainty relative to that from Igor Pro,  the range of values for each minimum was still larger than the size of the minimum itself.
 
 
 \begin{table}[h!]
