@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.9)  17 DEC 2014 15:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.9)  17 DEC 2014 16:43
 entering extended mode
 **Franck_Hertz.tex
 (C:\Users\Liza\Documents\GitHub\Franck_Hertz_Lab\Franck_Hertz.tex
@@ -283,53 +283,53 @@ Package gensymb Info: Using \Omega for \ohm on input line 13.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-<set-up.pdf, id=14, 577.54369pt x 501.83255pt>
+<set-up.pdf, id=17, 577.54369pt x 501.83255pt>
 File: set-up.pdf Graphic file (type pdf)
  <use set-up.pdf>
-Package pdftex.def Info: set-up.pdf used on input line 95.
+Package pdftex.def Info: set-up.pdf used on input line 97.
 (pdftex.def)             Requested size: 361.34999pt x 313.98149pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] <alltemps.pdf, id=18, 969.6225pt x 506.89375pt>
+[3] <alltemps.pdf, id=21, 969.6225pt x 506.89375pt>
 File: alltemps.pdf Graphic file (type pdf)
  <use alltemps.pdf>
-Package pdftex.def Info: alltemps.pdf used on input line 108.
+Package pdftex.def Info: alltemps.pdf used on input line 110.
 (pdftex.def)             Requested size: 433.62pt x 226.68465pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<204C_backFit.png, id=19, 730.98094pt x 460.72125pt>
+<204C_backFit.png, id=22, 730.98094pt x 460.72125pt>
 File: 204C_backFit.png Graphic file (type png)
  <use 204C_backFit.png>
-Package pdftex.def Info: 204C_backFit.png used on input line 118.
+Package pdftex.def Info: 204C_backFit.png used on input line 120.
 (pdftex.def)             Requested size: 433.62pt x 273.29948pt.
 
 [4 <C:/Users/Liza/Documents/GitHub/Franck_Hertz_Lab/set-up.pdf>] [5 <C:/Users/L
 iza/Documents/GitHub/Franck_Hertz_Lab/alltemps.pdf> <C:/Users/Liza/Documents/Gi
 tHub/Franck_Hertz_Lab/204C_backFit.png>]
-<204C_noback.png, id=125, 725.71124pt x 398.99063pt>
+<204C_noback.png, id=128, 725.71124pt x 398.99063pt>
 File: 204C_noback.png Graphic file (type png)
  <use 204C_noback.png>
-Package pdftex.def Info: 204C_noback.png used on input line 244.
+Package pdftex.def Info: 204C_noback.png used on input line 246.
 (pdftex.def)             Requested size: 433.62pt x 238.40385pt.
 
-<204C_lockin_noback.png, id=126, 724.95844pt x 451.6875pt>
+<204C_lockin_noback.png, id=129, 724.95844pt x 451.6875pt>
 File: 204C_lockin_noback.png Graphic file (type png)
 
 <use 204C_lockin_noback.png>
-Package pdftex.def Info: 204C_lockin_noback.png used on input line 251.
+Package pdftex.def Info: 204C_lockin_noback.png used on input line 253.
 (pdftex.def)             Requested size: 433.62pt x 270.17374pt.
 
 
@@ -339,11 +339,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<204C_minima_eyeball.pdf, id=131, 925.4575pt x 506.89375pt>
+<204C_minima_eyeball.pdf, id=134, 925.4575pt x 506.89375pt>
 File: 204C_minima_eyeball.pdf Graphic file (type pdf)
 
 <use 204C_minima_eyeball.pdf>
-Package pdftex.def Info: 204C_minima_eyeball.pdf used on input line 289.
+Package pdftex.def Info: 204C_minima_eyeball.pdf used on input line 291.
 (pdftex.def)             Requested size: 433.62pt x 237.50531pt.
 
 
@@ -352,29 +352,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [7 <C:/Users/Liza/Documents/GitHub/Franck_Hertz_Lab/204C_lockin_noback.png>]
 [8 <C:/Users/Liza/Documents/GitHub/Franck_Hertz_Lab/204C_minima_eyeball.pdf>]
 No file Franck_Hertz.bbl.
-[9] (C:\Users\Liza\Documents\GitHub\Franck_Hertz_Lab\Franck_Hertz.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[9] (C:\Users\Liza\Documents\GitHub\Franck_Hertz_Lab\Franck_Hertz.aux) ) 
 Here is how much of TeX's memory you used:
- 4016 strings out of 493921
- 52119 string characters out of 3144880
- 121632 words of memory out of 3000000
- 7270 multiletter control sequences out of 15000+200000
+ 4020 strings out of 493921
+ 52183 string characters out of 3144880
+ 121647 words of memory out of 3000000
+ 7274 multiletter control sequences out of 15000+200000
  11844 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,13n,30p,678b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Franck_Hertz.pdf (9 pages, 728941 bytes).
+ 36i,13n,30p,2393b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Franck_Hertz.pdf (9 pages, 756159 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
+ 184 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

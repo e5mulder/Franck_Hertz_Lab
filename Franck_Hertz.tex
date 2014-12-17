@@ -34,6 +34,8 @@
 
 
 \begin{abstract}
+The Franck-Hertz experiment, named for James Franck and Gustav Hertz, measures the atomic energy levels of a gas. Classically, an atom can have any energy, but quantum-mechanically, these energies are restricted to specific values. The Franck-Hertz experiment attempts to transfer energy to a gas from a current of electrons, and notes at which energies the transfer can occur (seen in the data as dips in the current when electrons, having lost energy in a collision, drop out of the current). By looking at the spacing of dips in the data, one can determine the transition energies of the element used in the experiment. We performed the Franck-Hertz experiment with neon and mercury gas, and with the mercury at various temperatures. We varied the accelerating voltage of the apparatus (the voltage used to drive the electrons through the gas) in order to change the energies of the electrons. We then measured the output voltage (calculated from the output current), to look for dips in voltage where electrons transfered their energy to atoms and dropped out of the current. We took data directly and using a lock-in apparatus. We then calculated the locations of the minima in our plots. Our analysis proved difficult, as we did not have fine control over our independent variable (the accelerating voltage), and so our data had gaps and noise which made curve-fitting difficult. Our attempts to calculate the minima locations and uncertainties using software (igorPro and Mathematica) proved difficult - the error values provided by the programs were far too large. We next tried visually estimating minima locations and uncertainties directly from the plots. This gave better results, but our error was still to large to conclude anything significant. We obtained our final value for the first transition energy of mercury from a plot of the minima spacings - we did a linear fit and extrapolated the intercept at 0.5, a method described in other papers to find the first transition energy. ~\cite{newFeatures} Our final value of $4.76 \pm 0.03$ lies between accepted values for the first transition energy but agrees with none of them. ~\cite{newFeatures} In future experiments we would like to better control the accelerating voltage so that we could take data at more points and more slowly. 
+
 
 \end{abstract}
 
@@ -266,7 +268,7 @@ At this point, we decided to use the old-fashioned method of estimating our mini
 
 \begin{table}[h!]
 \centering
-\caption{Values for minima spacing with uncertainty, determined by three methods: estimating by eye from the plot of lock-in data, estimating by eye from the plot of data taken without the lock-in, and calculating from the curve fits to the lock-in minima as described in the analysis section. Our eyeball estimates had the lowest uncertainty. Plotted in Figure ~\ref{nomineye}}
+\caption{Values for minima spacing with uncertainty, determined by three methods: estimating by eye from the plot of lock-in data, estimating by eye from the plot of data taken without the lock-in, and calculating from the curve fits to the lock-in minima as described in the analysis section. Our eyeball estimates had the lowest uncertainty. The estimate by eye of the data without lock-in (columns 4 and 5 in the table) is plotted in Figure ~\ref{nomineye}}
 \begin{ruledtabular}
 \begin{tabular}{cccccccl}
           & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Lock-in data\\ estimate by eye\end{tabular}} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Data without lock-in\\ estimate by eye\end{tabular}} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Lock-in data\\ calculated from fits\end{tabular}} \\
@@ -298,6 +300,6 @@ Space No. & X                                            & dX                   
 \section{Conclusion}
 
 \begin{thebibliography}{3}
-
+\bibitem{newFeatures}Rapior, Gerald; Sengstock, Klaus; Baev, Valery. "New features of the Franck-Hertz experiment." Am. J. Phys. 74, 423 (2006); doi: 10.1119/1.2174033. 
 \end{thebibliography}
 \end{document}
