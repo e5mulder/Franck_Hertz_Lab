@@ -261,7 +261,27 @@ Thus our uncertainty in the slope and intercept values was half of the differenc
 Finally, the uncertainty in our minimum was determined by propagating the slope and intercept errors.
 Although this method reduced the uncertainty relative to that from Igor Pro,  the range of values for each minimum was still larger than the size of the minimum itself. Additionally, some values of the minima did not appear to match when we compared it to our data by eye.
 
-At this point, we decided to use the old-fashioned method of estimating our minimum by eye as well as the uncertainty. Then we calculated the difference in the accelerating voltage of successive minima (Fig. \ref{nomineye}). 
+At this point, we decided to use the old-fashioned method of estimating our minimum by eye as well as the uncertainty. Then we calculated the difference in the accelerating voltage of successive minima (Table ~\ref{minimaSpacing} and Fig. \ref{nomineye}). 
+
+
+\begin{table}[h!]
+\centering
+\caption{Values for minima spacing with uncertainty, determined by three methods: estimating by eye from the plot of lock-in data, estimating by eye from the plot of data taken without the lock-in, and calculating from the curve fits to the lock-in minima as described in the analysis section. Our eyeball estimates had the lowest uncertainty. Plotted in Figure ~\ref{nomineye}}
+\begin{ruledtabular}
+\begin{tabular}{cccccccl}
+          & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Lock-in data\\ estimate by eye\end{tabular}} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Data without lock-in\\ estimate by eye\end{tabular}} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Lock-in data\\ calculated from fits\end{tabular}} \\
+Space No. & X                                            & dX                                          & X                                                & dX                                              & X                                              & dX                                             \\
+1         & 4.87                                         & 0.2                                         & 4.82                                             & 0.12                                            & 5                                              & 0.9                                            \\
+2         & 5.15                                         & 0.2                                         & 4.79                                             & 0.14                                            & 5.07                                           & 0.53                                           \\
+3         & 4.5                                          & 0.2                                         & 4.91                                             & 0.12                                            & 4.49                                           & 0.43                                           \\
+4         & 5.1                                          & 0.2                                         & 4.95                                             & 0.15                                            & 5.11                                           & 0.43                                           \\
+5         & 4.9                                          & 0.2                                         & 5                                                & 0.3                                             & 5.01                                           & 0.43                                           \\
+6         & 4.95                                         & 0.2                                         & 5.2                                              & 0.35                                            & 4.89                                           & 0.4                                            \\
+7         & 5.31                                         & 0.25                                        & 5.13                                             & 0.22                                            & 5.29                                           & 0.46                                          
+\end{tabular}
+\end{ruledtabular}
+\label{minimaSpacing}
+\end{table}
 
 
 \begin{figure}[h!]
@@ -270,17 +290,6 @@ At this point, we decided to use the old-fashioned method of estimating our mini
 \caption{A plot the change in accelerating voltage between successive minima.}
 \label{nomineye}
 \end{figure}
-
-\begin{table}[h!]
-\centering
-\caption{ }
-\begin{ruledtabular}
-\begin{tabular}{lc}
-     
-\end{tabular}
-\end{ruledtabular}
-\label{parameters}
-\end{table}
 
 
 \section{Discussion}
