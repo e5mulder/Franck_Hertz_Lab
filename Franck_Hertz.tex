@@ -111,12 +111,12 @@ At high temperatures the output voltage values rose slowly, so we could record m
 \end{figure}
 
 
-After comparing the curves, we decided that the data for 204 \degree C (the blue curve in Figure ~\ref{alltemps}) had the most minima without losing the first few to the decreasing amplitude. Figure ~\ref{204CbackFit} shows our data with a quadratic background fit. 
+After comparing the curves, we decided that the data for 204 \degree C (the blue curve in Figure ~\ref{alltemps}) had the most minima without losing the first few to the decreasing amplitude. Figure ~\ref{204CbackFit} shows our data with a polynomial background fit. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=6in]{204C_backFit.pdf}
-\caption{A plot of the measured output voltage as a function of accelerating voltage for mercury gas at 204 \degree C. The general background trend is shown as a quadratic fit to the whole dataset.}
+\caption{A plot of the measured output voltage as a function of accelerating voltage for mercury gas at 204 \degree C. The general background trend is shown as a polynomial fit to the whole dataset.}
 \label{204CbackFit}
 \end{figure}
 
@@ -255,8 +255,8 @@ Fig. \ref{nobacknolock} and \ref{nobacklock} show the output voltage with the ba
 
 The minima for the data without the lock-in look parabolic while those of the lock-in data look linear.
 We performed linear fits on each side of the minimum for the lock-in data. The intersection of these lines was our estimate of the minimum.
-The curve fitting was done using Mathematica, as the uncertainty in the minima from curve-fitting in Igor Pro were larger than the range we fit the data over, thus it was not a accurate measure of our uncertainty in determine the minima.
-We determined our uncertainty by first altering the slope and intercept of the best-fit line determine by Igor Pro, such that the line is no longer a good fit to the data. We obtained high and low values of the slope and intercept. 
+The curve fitting was done using Mathematica, as the uncertainties in the minima from curve-fitting in Igor Pro were larger than the range we fit the data over, thus they were not a accurate measure of our uncertainty in determining the minima.
+We determined our uncertainty by first altering the slope and intercept of the best-fit line determined by Igor Pro, such that the line was no longer a good fit to the data. We obtained high and low values of the slope and intercept. 
 Thus our uncertainty in the slope and intercept values was half of the difference between the high and low values.
 Finally, the uncertainty in our minimum was determined by propagating the slope and intercept errors.
 Although this method reduced the uncertainty relative to that from Igor Pro,  the range of values for each minimum was still larger than the size of the minimum itself. Additionally, some values of the minima did not appear to match when we compared it to our data by eye.
