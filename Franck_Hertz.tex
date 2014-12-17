@@ -8,13 +8,15 @@
 \usepackage{color}
 \usepackage{ulem}
 \usepackage{multirow}
+\usepackage{gensymb}
+
 \begin{document}
 
 % Be sure to use the \title, \author, \affiliation, and \abstract macros
 % to format your title page.  Don't use lower-level macros to  manually
 % adjust the fonts and centering.
 
-\title{Single-Photon Interference}
+\title{Franck-Hertz Experiment}
 
 
 \author{Liza Mulder}
@@ -60,15 +62,21 @@ A retarding potential prevents these electrons from reaching the anode.
 The current at the anode was converted to a voltage by the apparatus. 
 To take data, we slowly increased the accelerating voltage from zero until the gas began to ionize, and measured the output voltage from the anode. 
 
-
+We performed this experiment with neon gas and mercury gas. The mercury gas experiment was performed with gas temperatures from 170\degree--210\degree C. Then was done so we could select an optimum temperature to perform with the lock-in. 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=5in]{set-up.pdf}
+\includegraphics[width=5in]{set-up.pdf} %Shorten caption, write in procedure
 \caption{The ELWE experimental apparatus, with the connections used to take measurements using both the direct method and the lock-in method. The apparatus consists of a control box (supplying the filament voltage, accelerating voltage, retarding voltage, and output voltage) and an oven, inside of which is the cloud of heated gas, the filament, the grid, and the anode. The filament releases a cloud of electrons into the gas, the grid supplies the positive voltage to attract the electrons, the anode collects the electrons, and the resulting current is measured as a voltage in the control box. The temperature of the oven, the accelerating voltage (applied between the cathode and the grid), the filament voltage, and the retarding voltage can be varied. For direct measurements, we sent the accelerating voltage from the control box to one multi-meter, and the output voltage to another, and the measurements from the multi-meters went to the computer (solid gray lines).  To use the lock-in (dark gray connections, dashed and solid), we supplied an oscillating voltage from the function generator on top of the accelerating voltage supplied by the control box. The output voltage and the reference from the function generator both went to the lock-in detector, and from there to the second multi-meter and then the computer. }
 \label{set-up}
 \end{figure}
 
 \section{Results}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{alltemps.pdf}
+\caption{A plot of the measured output voltage as a function of accelerating voltage for various temperatures of mercury gas. The general background trend flattens as the temperature increases.}
+\label{alltemps}
+\end{figure}
 
 \section{Analysis}
 
