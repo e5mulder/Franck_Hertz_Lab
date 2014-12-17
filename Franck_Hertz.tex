@@ -61,19 +61,39 @@ In our analysis we investigated temperature dependence briefly to chose a temper
 \section{Methods}
 
 For this experiment we used a Franck-Hertz experimental apparatus from ELWE. A diagram is shown in Figure ~\ref{set-up}. 
-A filament with 120 mA of current creates a cloud of electrons. 
-A potential difference (which we call the accelerating voltage) drives the electrons through a gas of mercury atoms. 
-We can control the energy of the electrons by varying the accelerating voltage. 
-Electrons which have transferred energy in collisions have less energy at the other end of the apparatus. 
-A retarding potential prevents these electrons from reaching the anode. 
-The current at the anode was converted to a voltage by the apparatus. 
+First, we heat the oven containing the glass tube with mercury gas to the desired temperature. 
+(In the diagram the part of the apparatus conatined in the oven is shaded grey.) 
+Next, a filament with 120 mA of current creates a cloud of electrons inside the mercury gas. 
+We set the filament voltage by placing an ammeter in line between the control box and the filament, then raising the filament voltage until the meter stabilized at 120mA. 
+Inside the gas, a potential difference (which we call the accelerating voltage) drives the electrons through the apparatus. 
+The voltage is applied to a grid inside the gas - it attracts the electrons but allows them to pass through it, eventually reaching the anode. 
+We can control the energies of the electrons by varying the accelerating voltage. 
+Electrons which have transferred energy in collisions have less energy at the other end of the apparatus, and a retarding potential prevents these electrons from reaching the anode. 
+We set the retarding potential at 5V. %check this number
+The current at the anode is converted to a voltage by the apparatus - the current runs through a resistor inside the control box, and the control box has an output which is the voltage across that resistor. 
+This voltage is our output voltage. 
 To take data, we slowly increased the accelerating voltage from zero until the gas began to ionize, and measured the output voltage from the anode. 
 
-We performed this experiment with neon gas and mercury gas. The mercury gas experiment was performed with gas temperatures from 170\degree--210\degree C. Then was done so we could select an optimum temperature to perform with the lock-in. 
+We performed this experiment with neon gas and mercury gas. 
+The neon experiment yielded poor data: we could only discern two peaks, and their shapes were irregular. 
+Therefore, we took the bulk of our data with mercury. 
+The mercury gas experiment was performed with gas temperatures from 170\degree--210\degree C. 
+Then was done so we could select an optimum temperature at which to take data with the lock-in. 
+We decided on 204 \degree C. 
+
+For direct measurements, we connected the accelerating voltage from the control box to a multimeter, and the output voltage to another multimeter. 
+With the computer, we plotted accelerating voltage versus output voltage. 
+The procedure for using the lock-in was more complicated. 
+We used a function generator to add a periodic voltage on top of the accelerating voltage supplied by the control box. 
+We then connected the reference from the function generator and the output voltage to the lock-in detector, and the resulting signal went to the second multimeter in place of the unmodified output voltage. 
+Using the lock-in had the effect of taking the derivative of the orignal data - the minima locations changed, as did the shape of the peaks and dips. 
+However, the spacing between the minima of the lock-in data had the same period as the original data: taking the derivative of a periodic funciton does not change its period. 
+Therefore we used the minima spacing from both the direct data and the lock-in data to try and extract the transition energy. 
+
 \begin{figure}[h!]
 \centering
 \includegraphics[width=5in]{set-up.pdf} %Shorten caption, write in procedure
-\caption{The ELWE experimental apparatus, with the connections used to take measurements using both the direct method and the lock-in method. The apparatus consists of a control box (supplying the filament voltage, accelerating voltage, retarding voltage, and output voltage) and an oven, inside of which is the cloud of heated gas, the filament, the grid, and the anode. The filament releases a cloud of electrons into the gas, the grid supplies the positive voltage to attract the electrons, the anode collects the electrons, and the resulting current is measured as a voltage in the control box. The temperature of the oven, the accelerating voltage (applied between the cathode and the grid), the filament voltage, and the retarding voltage can be varied. For direct measurements, we sent the accelerating voltage from the control box to one multi-meter, and the output voltage to another, and the measurements from the multi-meters went to the computer (solid gray lines).  To use the lock-in (dark gray connections, dashed and solid), we supplied an oscillating voltage from the function generator on top of the accelerating voltage supplied by the control box. The output voltage and the reference from the function generator both went to the lock-in detector, and from there to the second multi-meter and then the computer. }
+\caption{The ELWE experimental apparatus, with the connections used to take measurements using both the direct method and the lock-in method. The apparatus consists of a control box (supplying the filament voltage, accelerating voltage, retarding voltage, and output voltage) and an oven, inside of which is the cloud of heated gas, the filament, the grid, and the anode. The solid lines, light and dark grey, show the instrument connections for direct measurements. The dark grey lines, dashed and solid, show the instrument connections for the lock-in measurements. }
 \label{set-up}
 \end{figure}
 

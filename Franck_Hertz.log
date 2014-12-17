@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.9)  17 DEC 2014 13:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.9)  17 DEC 2014 14:15
 entering extended mode
 **Franck_Hertz.tex
 (C:\Users\Liza\Documents\GitHub\Franck_Hertz_Lab\Franck_Hertz.tex
@@ -295,7 +295,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <set-up.pdf, id=14, 577.54369pt x 501.83255pt>
 File: set-up.pdf Graphic file (type pdf)
  <use set-up.pdf>
-Package pdftex.def Info: set-up.pdf used on input line 75.
+Package pdftex.def Info: set-up.pdf used on input line 95.
 (pdftex.def)             Requested size: 361.34999pt x 313.98149pt.
 
 
@@ -304,24 +304,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <alltemps.pdf, id=15, 969.6225pt x 506.89375pt>
 File: alltemps.pdf Graphic file (type pdf)
  <use alltemps.pdf>
-Package pdftex.def Info: alltemps.pdf used on input line 83.
+Package pdftex.def Info: alltemps.pdf used on input line 103.
 (pdftex.def)             Requested size: 433.62pt x 226.68465pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[3] [4 <C:/Users/Liza/Documents/GitHub/Franck_Hertz_Lab/set-up.pdf>]
 No file Franck_Hertz.bbl.
-[3] [4 <C:/Users/Liza/Documents/GitHub/Franck_Hertz_Lab/set-up.pdf>] [5 <C:/Use
-rs/Liza/Documents/GitHub/Franck_Hertz_Lab/alltemps.pdf>]
+[5 <C:/Users/Liza/Documents/GitHub/Franck_Hertz_Lab/alltemps.pdf>]
 (C:\Users\Liza\Documents\GitHub\Franck_Hertz_Lab\Franck_Hertz.aux) ) 
 Here is how much of TeX's memory you used:
- 3988 strings out of 493921
- 51578 string characters out of 3144880
- 119576 words of memory out of 3000000
- 7247 multiletter control sequences out of 15000+200000
+ 3989 strings out of 493921
+ 51589 string characters out of 3144880
+ 121576 words of memory out of 3000000
+ 7248 multiletter control sequences out of 15000+200000
  11844 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,8n,30p,1441b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,30p,678b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
@@ -329,7 +329,7 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Franck_Hertz.pdf (5 pages, 517496 bytes).
+Output written on Franck_Hertz.pdf (5 pages, 519044 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
