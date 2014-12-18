@@ -114,7 +114,8 @@ Figure ~\ref{alltemps} shows our data for mercury gas at various temperatures.
 At lower temperatures, the output voltage values rose more quickly, and ionization voltage (where we stopped taking data) occurred at lower values of accelerating voltage. 
 At high temperatures the output voltage values rose slowly, so we could record more peaks before ionization, but the earlier peaks were shallower and less well defined. 
 This is due to the temperature dependence of the mean free path, which is the average distance an electron moves before colliding with an atom. 
-At higher temperatures, the mean free path decreases, therefore the electron is more likely to transfer energy to an atom if allowed. It will have less energy after passing through the gas, and cannot reach the anode due to the retarding voltage.
+The connection between temperature and rate of increase is the mean free path of the gas.  At lower temperatures, the gas is less dense.  This means that an electron travels further on average between collisions with atoms - the ``mean free path'' is this distance. A longer path between collisions means the atom has more time to gain energy as the accelerating voltage propels it through the gas, and so it has more ``extra'' energy between collisions.  Therefore the electrons which reach the anode have more ``extra'' energy as well, which causes an increase in the entire dataset - a background. The magnitude of the background is temperature dependent. 
+
 
 \begin{figure}[h!]
 \centering
@@ -139,11 +140,12 @@ We also took data by the lock-in method, shown in Figure ~\ref{nobacklock} in th
 Since we only saw two dips in our neon data, we did no further analysis it. Our mercury data was imported into Igor Pro. Most of our analysis was performed on data at 204\degree C. 
 We first fit a background curve to both the data using the lock-in and the data without so it can be removed.
 It is easier to determine the minima without the background present.
-The background is a due to the increase in accelerating voltage: as the accelerating voltage increases, the final kinetic energy of the electrons increases proportionally, and so their velocity increases quadratically. Since the current of electrons at the anode is proportional to the velocity of the electrons flowing through it, increases in accelerating voltage cause the output current (and therefore the output voltage) to increase quadratically.  This increase is not related to the transition energies of the gas - in fact, the background distorts the dips in the data and shifts their lowest point slightly.  Therefore, an accurate measure of the minima needs to be taken with the background subtracted. 
+
+The background is a due to electrons which gain energy between collisions, and still have that extra energy when they reach the anode. At higher values of accelerating voltage the electrons gain energy more quickly, so the background is larger.  Likewise, at lower temperatures the gas is less dense, and so the electrons have a longer time between collisions in which to gain energy, which also increases the background.  This is why the background of the graphs for lower temperatures increases more quickly. This increase is not related to the transition energies of the gas - in fact, the background distorts the dips in the data and shifts their lowest point slightly.  Therefore, an accurate measure of the minima needs to be taken with the background subtracted. 
 The background curves were fitted using trial and error; we picked the one that best split the oscillations of the output voltage into equal amplitudes above and below the background. 
 Fig. \ref{nobacknolock} and \ref{nobacklock} show the output voltage with the background removed. 
 
-\begin{figure}[h!] %background not quadratic from my memory-fix
+\begin{figure}[h!] 
 \centering
 \includegraphics[width=6in]{204C_noback.png}
 \caption{A plot of the output voltage minus the background for mercury at 204\degree C.}
@@ -214,7 +216,7 @@ Of our two fits which we estimated by eye, only the data taken without the lock-
 \section{Conclusion}
 We saw dips in the output voltage, which was proportional to the electron current, as electrons were accelerated to higher and higher energies. The dips are caused by electrons losing energy to atoms through collisions, preventing them from reaching the cathode. 
 We attempted to determine the minima location, thus spacing, using curve fitting techniques but the values we obtained contradicted our data upon inspection. Therefore, we estimated the minima location visually. The minima spacing increases linearly with the spacing number, and the lowest excitation energy can be determined from this. We found a value of for the  $4.76 \pm 0.10$ eV lowest excitation energy of mercury. This does agree the reported value of $4.67$ eV.
-We can improve the accuracy and precision our experiment in a few ways. Increasing the control for the accelerating voltage, so smaller increments could be made, increasing the number of data points. This would increase the definition of our minima and make it easier to determine their locations. 
+We can improve the accuracy and precision our experiment in a few ways. One would be increasing the control for the accelerating voltage, so smaller increments could be made, increasing the number of data points. This would increase the definition of our minima and make it easier to determine their locations. Another would be finding a new way to compute minima locations more quickly and with more reasonable error using a data analysis program. 
 
 \begin{thebibliography}{3}
 
