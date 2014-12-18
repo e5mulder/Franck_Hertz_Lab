@@ -35,17 +35,17 @@
 
 \begin{abstract}
 The Franck-Hertz experiment demonstrates the quantum mechanical nature of atoms: the energy levels are discrete. 
-In this experiment, electrons are accelerated to increasing energies and sent through an atomic gas. The current of electrons reaching the cathode after converting to a voltage is measured. 
-Since the atoms can only gain discrete amounts of energy, there will be dips in the current, corresponding to the electrons transferring energy to the atoms, subsequently unable to reach the cathode.
+In this experiment, electrons generated at the cathode are accelerated to increasing energies and sent through an atomic gas. The current of electrons which reaching the anode (converted to a voltage by sending it across a resistor) is measured. 
+Since the atoms can only gain discrete amounts of energy, there will be dips in the current, corresponding to the electrons transferring all their energy to the atoms at those discrete values, and subsequently unable to reach the anode.
 By looking at the spacing of dips in the data, one can determine the transition energies of the atom. 
 We performed the Franck-Hertz experiment with neon and mercury gas, with the mercury at various temperatures. 
 We also performed the experiment with mercury at 204\degree C using a lock-in amplifier by adding small sinusoidal oscillations on top of the relatively larger voltage used to accelerate the electrons.
 We visually estimated the minima locations and uncertainties directly from the plots. 
 This gave better results compared to using curve fits to determine the minima.
-We obtained an estimate of $4.76\pm 0.03$ eV of the lowest excitation energy of mercury from our minima spacing data.
-This lies between accepted values for the first two transition energies of mercury,  $4.67$ eV and $4.89$ eV, but agrees with neither of them.
-We think the discrepancy is caused by the lack of control in accelerating voltage, which made it difficult to accurately determine minima.
-We think finer control of the accelerating voltage would allow us to collect more data, leading to more defined minima, allowing us to more accurately determine the lowest excitation energy of mercury. 
+We obtained an estimate of $4.76\pm 0.1$eV of the lowest excitation energy of mercury from our minima spacing data.
+This lies between accepted values for the first two transition energies of mercury,  $4.67$eV and $4.89$eV, but agrees with only the first one.~\cite{new}
+We think the discrepancy is caused by the lack of control in accelerating voltage, which made it difficult to take data points at small, consistent intervals, and so accurately determine minima.
+We think finer control of the accelerating voltage would allow us to collect better data, leading to more defined minima, allowing us to more accurately determine the lowest excitation energy of mercury. 
 \end{abstract}
 
 \maketitle
@@ -133,116 +133,6 @@ After comparing the curves, we decided that the data for 204 \degree C (the blue
 
 We also took data by the lock-in method, shown in Figure ~\ref{nobacklock} in the Analysis section with the background subtracted. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \section{Analysis}
 Since we only saw two dips in our neon data, we did no further analysis it. Our mercury data was imported into Igor Pro. Most of our analysis was performed on data at 204\degree C. 
 We first fit a background curve to both the data using the lock-in and the data without so it can be removed.
@@ -306,8 +196,8 @@ n & X                                            & dX                           
 \label{nomineye}
 \end{figure}
 
-We estimated the lowest excitation energy of mercury to be $4.76\pm0.03$ eV.
-from the minima of the lock-in data estimated by eye, of the no lock-in data estimated by eye, and of the lock-in data estimated by curve-fitting.
+
+We estimated the lowest excitation energy of mercury to be $4.76\pm0.1$ from the minima of the lock-in data estimated by eye, of the no lock-in data estimated by eye, and of the lock-in data estimated by curve-fitting.
 
 
 \section{Discussion}
@@ -315,7 +205,7 @@ Our main difficulty with this experiemnt was getting accurate values for the loc
 
 The solution to this ideally would be to take data with smaller increments of accelerating voltage, to fill in the gaps. However, we controlled accelerating voltage using a small knob on the control box, which did not allow for fine tuning. The scale on the readout went in steps of 0.5V, and even turning the knob as slowly as we could, the accelerating voltage increased by steps of 0.2V or greater, oftentimes slipping back to a smaller value before going up again. The large gaps in our data were caused by accidental twitches or bumps which, while feeling small, would cause the accelerating voltage to jump up. With the equipment we had,  we took the most detailed data we could. 
 
-Of our two fits which we estimated by eye, only the data taken without the lock-in allowed for a decent curve fit.  After calculating the first energy transition from this fit, we got a value which falls between the known transitions for mercury, and is in agreement with one.  However, the uncertainty is too large to draw definite conclusions.  The lowest three transition energies for mercury are: 4.67eV, 4,89eV, and 5.46eV.  Our value for the transition energy was: $4.76 \pm 0.1$eV, which is between the lowest two transitions, and within uncertainty of the first transition energy. 
+Of our two fits which we estimated by eye, only the data taken without the lock-in allowed for a decent curve fit.  After calculating the first energy transition from this fit, we got a value which falls between the known transitions for mercury, and is in agreement with one.  However, the uncertainty is too large to draw definite conclusions.  The lowest two transition energies for mercury are 4.67eV and 4,89eV.  Our value for the transition energy was: $4.76 \pm 0.1$eV, which is between these two transitions, and within uncertainty of the first transition energy. 
 
 
 
