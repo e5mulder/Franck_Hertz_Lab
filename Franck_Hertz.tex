@@ -34,9 +34,18 @@
 
 
 \begin{abstract}
-The Franck-Hertz experiment, named for James Franck and Gustav Hertz, measures the atomic energy levels of a gas. Classically, an atom can have any energy, but quantum-mechanically, these energies are restricted to specific values. The Franck-Hertz experiment attempts to transfer energy to a gas from a current of electrons, and notes at which energies the transfer can occur (seen in the data as dips in the current when electrons, having lost energy in a collision, drop out of the current). By looking at the spacing of dips in the data, one can determine the transition energies of the element used in the experiment. We performed the Franck-Hertz experiment with neon and mercury gas, and with the mercury at various temperatures. We varied the accelerating voltage of the apparatus (the voltage used to drive the electrons through the gas) in order to change the energies of the electrons. We then measured the output voltage (calculated from the output current), to look for dips in voltage where electrons transfered their energy to atoms and dropped out of the current. We took data directly and using a lock-in apparatus. We then calculated the locations of the minima in our plots. Our analysis proved difficult, as we did not have fine control over our independent variable (the accelerating voltage), and so our data had gaps and noise which made curve-fitting difficult. Our attempts to calculate the minima locations and uncertainties using software (igorPro and Mathematica) proved difficult - the error values provided by the programs were far too large. We next tried visually estimating minima locations and uncertainties directly from the plots. This gave better results, but our error was still to large to conclude anything significant. We obtained our final value for the first transition energy of mercury from a plot of the minima spacings - we did a linear fit and extrapolated the intercept at 0.5, a method described in other papers to find the first transition energy. ~\cite{newFeatures} Our final value of $4.76 \pm 0.03$ lies between accepted values for the first transition energy but agrees with none of them. ~\cite{newFeatures} In future experiments we would like to better control the accelerating voltage so that we could take data at more points and more slowly. 
-
-
+The Franck-Hertz experiment demonstrates the quantum mechanical nature of atoms: the energy levels are discrete. 
+In this experiment, electrons are accelerated to increasing energies and sent through an atomic gas. The current of electrons reaching the cathode after converting to a voltage is measured. 
+Since the atoms can only gain discrete amounts of energy, there will be dips in the current, corresponding to the electrons transferring energy to the atoms, subsequently unable to reach the cathode.
+By looking at the spacing of dips in the data, one can determine the transition energies of the atom. 
+We performed the Franck-Hertz experiment with neon and mercury gas, with the mercury at various temperatures. 
+We also performed the experiment with mercury at 204\degree C using a lock-in amplifier by adding small sinusoidal oscillations on top of the relatively larger voltage used to accelerate the electrons.
+We visually estimated the minima locations and uncertainties directly from the plots. 
+This gave better results compared to using curve fits to determine the minima.
+We obtained an estimate of $4.76\pm 0.03$ of the lowest excitation energy of mercury from our minima spacing data.
+This lies between accepted values for the first two transition energies of mercury,  $4.67$ and $4.8$, but agrees with neither of them.
+We think the discrepancy is caused by the lack of control in accelerating voltage, which made it difficult to accurately determine minima.
+We think finer control of the accelerating voltage would allow us to collect more data, leading to more defined minima, allowing us to more accurately determine the lowest excitation energy of mercury. 
 \end{abstract}
 
 \maketitle
@@ -297,7 +306,7 @@ n & X                                            & dX                           
 \label{nomineye}
 \end{figure}
 
-We estimated the lowest excitation energy of mercury to be %insert values%
+We estimated the lowest excitation energy of mercury to be $4.76\pm0.03$
 from the minima of the lock-in data estimated by eye, of the no lock-in data estimated by eye, and of the lock-in data estimated by curve-fitting.
 
 
