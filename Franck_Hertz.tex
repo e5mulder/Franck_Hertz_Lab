@@ -42,8 +42,8 @@ We performed the Franck-Hertz experiment with neon and mercury gas, with the mer
 We also performed the experiment with mercury at 204\degree C using a lock-in amplifier by adding small sinusoidal oscillations on top of a relatively larger voltage used to accelerate the electrons.
 We visually estimated the minima locations and uncertainties from the plots. 
 This gave better results compared to using curve fits to determine the minima.
-We obtained an estimate of $4.76\pm 0.10$eV for the lowest excitation energy of mercury from our minima spacing data.
-This lies between accepted values for the first two transition energies of mercury,  $4.67$eV and $4.89$eV, but agrees with only the first one.~\cite{new}
+We obtained an estimate of $4.76\pm 0.10$ eV for the lowest excitation energy of mercury from our minima spacing data.
+This lies between accepted values for the first two transition energies of mercury,  $4.67$ eV and $4.89$ eV, but agrees with only the first one.~\cite{new}
 We think the discrepancy is caused by the lack of control in accelerating voltage, which made it difficult to take data points at small, consistent intervals, and so accurately determine minima.
 We think finer control of the accelerating voltage would allow us to collect better data, leading to more defined minima, allowing us to more accurately determine the lowest excitation energy of mercury. 
 \end{abstract}
@@ -65,17 +65,17 @@ The spacing of the minima (in volts) gives the energy (in electron-volts) that c
 The next minimum occurs when the electrons gain back just enough energy to collide and lose their energy again. 
 This energy gain - from zero to collision energy - is a transition energy of the atom. 
 In this way the Franck-Hertz experiment can be used to determine the transition energies of the atom. 
-Further research on the Franck-Hertz experiment in Mercury has shown a temperature dependence of the minima spacings, and examined how the minima spacings increase slightly at higher voltages. 
-In our analysis we investigated temperature dependence briefly to chose a temperature at which the pattern in the data was most clearly defined, and we used the expected increase in minima spacing with voltage to better estimate the actual transition energy occuring in the gas. 
+Further research on the Franck-Hertz experiment in mercury has shown a temperature dependence of the minima spacings, and examined how the minima spacings increase slightly at higher voltages. 
+In our analysis we investigated temperature dependence briefly to chose a temperature at which the pattern in the data was most clearly defined, and we used the expected increase in minima spacing with voltage to better estimate the actual transition energy occurring in the gas. 
 
 
 \section{Methods}
 
 For this experiment we used a Franck-Hertz experimental apparatus from ELWE. A diagram is shown in Figure ~\ref{set-up}. 
 First, we heat the oven containing the glass tube with mercury gas to the desired temperature. 
-(In the diagram the part of the apparatus conatined in the oven is shaded grey.) 
+(In the diagram the part of the apparatus contained in the oven is shaded grey.) 
 Next, a filament with 120 mA of current creates a cloud of electrons inside the mercury gas. 
-We set the filament voltage by placing an ammeter in line between the control box and the filament, then raising the filament voltage until the meter stabilized at 120mA. 
+We set the filament voltage by placing an ammeter in line between the control box and the filament, then raising the filament voltage until the meter stabilized at 120 mA. 
 Inside the gas, a potential difference (which we call the accelerating voltage) drives the electrons through the apparatus. 
 The voltage is applied to a grid inside the gas - it attracts the electrons but allows them to pass through it, eventually reaching the anode. 
 We can control the energies of the electrons by varying the accelerating voltage. 
@@ -90,20 +90,20 @@ The neon experiment yielded poor data: we could only discern two peaks, and thei
 Therefore, we took the bulk of our data with mercury. 
 The mercury gas experiment was performed with gas temperatures from 170\degree--210\degree C. 
 Then was done so we could select an optimum temperature at which to take data with the lock-in. 
-We decided on 204 \degree C. 
+We decided on 204\degree C, because it was a good compromise between having many minima and having the early minima be discernable.  
 
 For direct measurements, we connected the accelerating voltage from the control box to a multimeter, and the output voltage to another multimeter. 
 With the computer, we plotted accelerating voltage versus output voltage. 
 The procedure for using the lock-in was more complicated. 
-We used a function generator to add a periodic voltage on top of the accelerating voltage supplied by the control box. 
+We used a function generator to add a small oscillating voltage on top of the accelerating voltage supplied by the control box. 
 We then connected the reference from the function generator and the output voltage to the lock-in detector, and the resulting signal went to the second multimeter in place of the unmodified output voltage. 
-Using the lock-in had the effect of taking the derivative of the orignal data - the minima locations changed, as did the shape of the peaks and dips. 
-However, the spacing between the minima of the lock-in data had the same period as the original data: taking the derivative of a periodic funciton does not change its period. 
+Using the lock-in had the effect of taking the derivative of the original data - the minima locations changed, as did the shape of the peaks and dips. 
+However, the spacing between the minima of the lock-in data had the same period as the original data: taking the derivative of a periodic function does not change its period. 
 Therefore we used the minima spacing from both the direct data and the lock-in data to try and extract the transition energy. 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=5in]{set-up.pdf} %Shorten caption, write in procedure
+\includegraphics[width=5in]{set-up.pdf} 
 \caption{The ELWE experimental apparatus, with the connections used to take measurements using both the direct method and the lock-in method. The apparatus consists of a control box (supplying the filament voltage, accelerating voltage, retarding voltage, and output voltage) and an oven, inside of which is the cloud of heated gas, the filament, the grid, and the anode. The solid lines, light and dark grey, show the instrument connections for direct measurements. The dark grey lines, dashed and solid, show the instrument connections for the lock-in measurements. }
 \label{set-up}
 \end{figure}
@@ -111,8 +111,10 @@ Therefore we used the minima spacing from both the direct data and the lock-in d
 \section{Results}
 
 Figure ~\ref{alltemps} shows our data for mercury gas at various temperatures. 
-At lower temperatures, the output voltage values rose more quickly, and ionization voltage (where we stopped taking data) occured at lower values of accelerating voltage. 
+At lower temperatures, the output voltage values rose more quickly, and ionization voltage (where we stopped taking data) occurred at lower values of accelerating voltage. 
 At high temperatures the output voltage values rose slowly, so we could record more peaks before ionization, but the earlier peaks were shallower and less well defined. 
+This is due to the temperature dependence of the mean free path, which is the average distance an electron moves before colliding with an atom. 
+At higher temperatures, the mean free path decreases, therefore the electron is more likely to transfer energy to an atom if allowed. It will have less energy after passing through the gas, and cannot reach the anode due to the retarding voltage.
 
 \begin{figure}[h!]
 \centering
@@ -122,7 +124,7 @@ At high temperatures the output voltage values rose slowly, so we could record m
 \end{figure}
 
 
-After comparing the curves, we decided that the data for 204 \degree C (the blue curve in Figure ~\ref{alltemps}) had the most minima without losing the first few to the decreasing amplitude. Figure ~\ref{204CbackFit} shows our data with a polynomial background fit. 
+After comparing the curves, we decided that the data for 204\degree C (the blue curve in Figure ~\ref{alltemps}) had the most minima without losing the first few to the decreasing amplitude. Figure ~\ref{204CbackFit} shows our data with a polynomial background fit. 
 
 \begin{figure}[h!]
 \centering
@@ -137,7 +139,7 @@ We also took data by the lock-in method, shown in Figure ~\ref{nobacklock} in th
 Since we only saw two dips in our neon data, we did no further analysis it. Our mercury data was imported into Igor Pro. Most of our analysis was performed on data at 204\degree C. 
 We first fit a background curve to both the data using the lock-in and the data without so it can be removed.
 It is easier to determine the minima without the background present.
-The background is a due to the increase in accelerating voltage: as the accelerating voltage increases, the final kinetic energy of the electrons increases proporionally, and so their velocity increases quadratically. Since the current of electrons at the anode is proportional to the velocity of the electrons flowing through it, increases in accelerating voltage cause the output current (and therefore the output voltage) to increase quadratically.  This increase is not related to the transition energies of the gas - in fact, the background distorts the dips in the data and shifts their lowest point slightly.  Therefore, an accurate measure of the minima needs to be taken with the background subtracted. 
+The background is a due to the increase in accelerating voltage: as the accelerating voltage increases, the final kinetic energy of the electrons increases proportionally, and so their velocity increases quadratically. Since the current of electrons at the anode is proportional to the velocity of the electrons flowing through it, increases in accelerating voltage cause the output current (and therefore the output voltage) to increase quadratically.  This increase is not related to the transition energies of the gas - in fact, the background distorts the dips in the data and shifts their lowest point slightly.  Therefore, an accurate measure of the minima needs to be taken with the background subtracted. 
 The background curves were fitted using trial and error; we picked the one that best split the oscillations of the output voltage into equal amplitudes above and below the background. 
 Fig. \ref{nobacknolock} and \ref{nobacklock} show the output voltage with the background removed. 
 
@@ -177,7 +179,7 @@ We can obtain a estimate of the lowest excitation energy of mercury by extrapola
 \begin{ruledtabular}
 \begin{tabular}{cccccccl}
           & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Lock-in data\\ estimate by eye\end{tabular}} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Data without lock-in\\ estimate by eye\end{tabular}} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Lock-in data\\ calculated from fits\end{tabular}} \\
-n & X                                            & dX                                          & X                                                & dX                                              & X                                              & dX                                             \\
+n & X (V)                                            & dX (V)                                         & X (V)                                               & dX (V)                                             & X (V)                                             & dX (V)                                            \\
 1         & 4.87                                         & 0.2                                         & 4.82                                             & 0.12                                            & 5                                              & 0.9                                            \\
 2         & 5.15                                         & 0.2                                         & 4.79                                             & 0.14                                            & 5.07                                           & 0.53                                           \\
 3         & 4.5                                          & 0.2                                         & 4.91                                             & 0.12                                            & 4.49                                           & 0.43                                           \\
@@ -198,19 +200,15 @@ n & X                                            & dX                           
 \end{figure}
 
 
-We estimated the lowest excitation energy of mercury to be $4.76\pm0.10$ from the minima of the lock-in data estimated by eye, of the no lock-in data estimated by eye, and of the lock-in data estimated by curve-fitting.
+We estimated the lowest excitation energy of mercury to be $4.76\pm0.10$ eV from the minima of the lock-in data estimated by eye, of the no lock-in data estimated by eye, and of the lock-in data estimated by curve-fitting.
 
 
 \section{Discussion}
-Our main difficulty with this experiemnt was getting accurate values for the locations of the minima with small uncertainty.  As you can see in Figures ~\ref{nobacknolock} and ~\ref{nobacklock}, there are gaps in the data, especially towards the higher values of accelerating voltage as the curve becomes steeper.  When we zoomed in on each minimum to find the lowest point, the spacing between the points increased until it was difficult to tell where the minimum was.  The scarcity and scatter in the points also made curve-fitting difficult, so that our various fits with igorPro and Mathematica had large error. Estimating by eye was equally difficult, and we could not get the uncertainty below 0.12 V for any of our minima.  
+Our main difficulty with this experiment was getting accurate values for the locations of the minima with small uncertainty.  As you can see in Figures ~\ref{nobacknolock} and ~\ref{nobacklock}, there are gaps in the data, especially towards the higher values of accelerating voltage as the curve becomes steeper.  When we zoomed in on each minimum to find the lowest point, the spacing between the points increased until it was difficult to tell where the minimum was.  The scarcity and scatter in the points also made curve-fitting difficult, so that our various fits with IgorPro and Mathematica had large error. Estimating by eye was equally difficult, and we could not get the uncertainty below 0.12 V for any of our minima.  
 
 The solution to this ideally would be to take data with smaller increments of accelerating voltage, to fill in the gaps. However, we controlled accelerating voltage using a small knob on the control box, which did not allow for fine tuning. The scale on the readout went in steps of 0.5 V, and even turning the knob as slowly as we could, the accelerating voltage increased by steps of 0.2 V or greater, oftentimes slipping back to a smaller value before going up again. The large gaps in our data were caused by accidental twitches or bumps which, while feeling small, would cause the accelerating voltage to jump up. With the equipment we had,  we took the most detailed data we could. 
 
-Of our two fits which we estimated by eye, only the data taken without the lock-in allowed for a decent curve fit.  After calculating the first energy transition from this fit, we got a value which falls between the known transitions for mercury, and is in agreement with one.  However, the uncertainty is too large to draw definite conclusions.  The lowest two transition energies for mercury are 4.67 eV and 4.89 eV.  Our value for the transition energy was: $4.76 \pm 0.10$eV, which is between these two transitions, and within uncertainty of the first transition energy. 
-
-
-
-
+Of our two fits which we estimated by eye, only the data taken without the lock-in allowed for a decent curve fit.  After calculating the first energy transition from this fit, we got a value which falls between the known transitions for mercury, and is in agreement with one.  However, the uncertainty is too large to draw definite conclusions.  The lowest two transition energies for mercury are 4.67 eV and 4.89 eV.  Our value for the transition energy was: $4.76 \pm 0.10$ eV, which is between these two transitions, and within uncertainty of the first transition energy. 
 
 
 \section{Conclusion}
